@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primaryAppBackground">#858382</color>
+    <color name="navBarBg">#DFC1BF</color>
 </resources>
