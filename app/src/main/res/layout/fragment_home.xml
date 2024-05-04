@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:text="Notification(s)"
                 android:textColor="@color/white"
-                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_4sdp"
                 android:layout_marginStart="@dimen/_8sdp"
                 android:layout_marginBottom="@dimen/_18sdp"
                 android:textSize="@dimen/_18sdp"/>
@@ -31,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_dropdown"
-                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_4sdp"
                 android:layout_marginBottom="@dimen/_18sdp"
                 android:layout_marginStart="@dimen/_4sdp"
                 android:gravity="center_vertical"/>

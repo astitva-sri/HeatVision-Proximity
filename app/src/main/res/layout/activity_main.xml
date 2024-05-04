@@ -34,7 +34,7 @@
             android:padding="@dimen/_4sdp"
             android:src="@drawable/active_notification_bell"
             android:layout_marginStart="@dimen/_108sdp"
-            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
             android:tooltipText="Notifications On/Off"/>
 
     </LinearLayout>

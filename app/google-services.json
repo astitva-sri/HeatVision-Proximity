@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "144084464937",
+    "project_id": "heatvison-proximity",
+    "storage_bucket": "heatvison-proximity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144084464937:android:05a56ad35578b329977338",
+        "android_client_info": {
+          "package_name": "com.application.heatvisonproximity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWAEQLS3QKNoZrbY7hrT4a6ZNG9Whm2KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

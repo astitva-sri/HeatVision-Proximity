@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.application.heatvisonproximity" />
+                  <option name="mobileSdkAppId" value="1:144084464937:android:05a56ad35578b329977338" />
+                  <option name="projectId" value="heatvison-proximity" />
+                  <option name="projectNumber" value="144084464937" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

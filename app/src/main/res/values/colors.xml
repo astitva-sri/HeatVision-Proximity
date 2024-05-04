@@ -4,4 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primaryAppBackground">#858382</color>
     <color name="navBarBg">#DFC1BF</color>
+    <color name="scrollViewBg">#EFCDCA</color>
+    <color name="loginBg">#6C9DFF</color>
+    <color name="buttonColor">#19084A</color>
+    <color name="editTextBorderColor">#B6B7BA</color>
+    <color name="editTextBgColor">#E6EFFD</color>
 </resources>

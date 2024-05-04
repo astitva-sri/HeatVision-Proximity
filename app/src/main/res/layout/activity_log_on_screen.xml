@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogOnScreen"
+    android:background="@color/loginBg">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_144sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:src="@drawable/login_img1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello..."
+            android:textAlignment="center"
+            android:textStyle="bold"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="@dimen/_28sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To HeatVision Proximity, \n An alerting app that'll let you know if a person was there "
+            android:textAlignment="center"
+            android:textSize="@dimen/_11sdp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_28sdp"/>
+        <Button
+            android:id="@+id/goToLogin"
+            android:layout_width="@dimen/_132sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/Login_btn"
+            android:layout_marginBottom="@dimen/_6sdp"/>
+        <Button
+            android:id="@+id/goToSignUp"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="@dimen/_132sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_signup"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_6sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or \n Sign up using"
+            android:textAlignment="center"
+            android:textSize="@dimen/_8sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_28sdp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_12sdp">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/google_logo"
+                android:layout_marginEnd="@dimen/_6sdp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook_logo"
+                android:layout_marginStart="@dimen/_6sdp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

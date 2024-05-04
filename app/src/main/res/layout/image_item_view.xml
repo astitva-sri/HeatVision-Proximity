@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:weightSum="2">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/notification_bell"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:background="@drawable/border_shape"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/notification_bell"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:background="@drawable/border_shape"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+</RelativeLayout>
