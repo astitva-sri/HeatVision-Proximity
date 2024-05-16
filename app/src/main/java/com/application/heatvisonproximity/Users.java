@@ -3,11 +3,19 @@ package com.application.heatvisonproximity;
 public class Users {
     String profilePic;
     String email;
-    String firstName;
+    String firstName, lastName;
     String password;
     String userId;
 
-    public Users(String id, String firstName, String email, String password, String imageuri, String lastName) {
+    public Users(String id, String firstName, String lastName, String email, String password, String profilePic){
+        this.userId = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.profilePic = profilePic;
+
+
     }
 
     public String getProfilePic() {
@@ -34,6 +42,14 @@ public class Users {
         this.firstName = firstName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
     public String getPassword() {
         return password;
     }
@@ -50,14 +66,13 @@ public class Users {
         this.userId = userId;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
+    /*public Users(String id, String firstName, String lastName, String email, String password, String imageuri) {
+        this.userId = id;
+        this.firstName = firstName;
         this.lastName = lastName;
-    }
-
-    String lastName;
+        this.email = email;
+        this.password = password;
+        this.profilePic = imageuri;
+    }*/
 
 }
