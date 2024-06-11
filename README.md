@@ -4,12 +4,12 @@ Welcome to HeatVision Proximity! This Android app is part of a major project for
 
 ## Key Features
 
-- Human Detection: The app receives notifications when the device detects a human.
-- Timestamp Display: Users can view the timestamp at which the detection occurred.
-- Image Capture: The app displays an image captured at the time of detection.
-- Authentication: Proper authentication process ensures that only authorized users can access device data.
-- Integration with MongoDB: Device data is stored in a MongoDB database.
-- Firebase Integration: The app fetches timestamp data and images from Firebase database.
+- Human Detection: Users receive notifications through the app whenever the device identifies a human presence.
+- Timestamp Display: The app allows users to see the exact time when a detection event occurred, stored directly in the Firebase Realtime Database by the hardware.
+- Image Capture: Captured images at the time of detection are displayed within the app, with images stored directly in Firebase Storage.
+- Authentication: A secure authentication process ensures that only authorized users can access the device's data.
+- Firebase Integration: The app fetches timestamp data, images, and user profile data from Firebase, consolidating all necessary information in one platform.
+- Push Notifications: Uses Firebase Cloud Messaging to alert users with push notifications whenever new data is pushed to the database.
 
 ## Setup Instructions
 
